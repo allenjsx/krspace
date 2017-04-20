@@ -194,12 +194,48 @@ a:hover {
           <li>Then add this nice CSS code</li>
         </ul>
 <pre><code>
+/****************/
+/* navbar */
+/****************/
+
+.navbar {
+  background:white;
+  padding:10px;
+  text-align: center;
+}
+
+/****************/
+/* header */
+/****************/
+
 #header{
   text-align: center;
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/tianfu-square.jpg");
   background-size: cover;
   padding: 150px;
   color: white;
+}
+
+#header p {
+  font-size: 25px;
+  margin:40px;
+}
+
+#header a.btn {
+  padding:15px;
+  text-decoration: none;
+}
+
+/****************/
+/* content */
+/****************/
+
+.container {
+  padding:20px 0px;
+  background-color: #F3F3F3;
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .card{
@@ -210,12 +246,27 @@ a:hover {
   width:200px;
 }
 
+.card img {
+  width:100px;
+}
+
+/****************/
+/* footer */
+/****************/
+
 #footer{
   padding: 50px;
-  background: rgb(30, 30, 30);
+  background: #1E1E1E;
   color: lightgrey;
   text-align: center;
   line-height: 2;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: white;
 }
 
 #footer ul {
@@ -228,6 +279,10 @@ a:hover {
   padding:0px 10px;
 }
 
+/****************/
+/* forms */
+/****************/
+
 .input {
   font-size: 18px;
   height:50px;
@@ -239,15 +294,15 @@ a:hover {
 }
 
 .btn {
-  background:#D42C14;
+  background:#008AD1;
   color:white;
   font-weight: bolder;
   width:150px;
-  border:1px solid #AB2513;
+  border:1px solid #0083C4;
 }
 
 .btn:hover {
-  background:#AB2513;
+  background: #0083C4;
   color:white;
 }
 </code></pre>
